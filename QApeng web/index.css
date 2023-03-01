@@ -1,0 +1,387 @@
+/*css*/
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+.navbar{
+    display: flex;
+    top: 0px;
+    position: sticky;
+   
+}
+
+.navbar::before{
+    content: "";
+    background-color: rgb(57, 53, 53);
+    position: absolute;
+    top:0px;
+    left:0px;
+    height: 100%;
+    width:100%;
+    z-index: -1;
+    opacity: 0.7;
+
+}
+.nav-item{
+    display: flex;
+    background-color:#efe5e500;
+    width: 50%;   
+    padding: 5px 6px;
+    
+}
+
+.nav-item h1{
+
+    justify-content: center;
+    padding: 7px 0px 0px 9px;
+    font-family: 'Baloo Bhai 2', cursive;
+}
+
+.logo img{
+    
+    width: 50px;
+    height: 50px;
+    border: 2px white;
+    border-radius: 40px;
+    align-items:  center;
+    justify-content: center;
+}
+
+
+.menu{
+
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    padding-left: 100%;
+}
+
+.menu li{
+    padding: 10px;
+    list-style: none;
+}
+
+
+
+.menu li a{
+
+    text-decoration: none;
+    cursor: pointer;
+
+    color: black;
+    font-size: 20px;
+}
+
+
+
+
+.menu li a:hover{
+     
+ 
+     color: white;
+    justify-content: center;
+    border-radius: 8px;
+    align-items: center;
+
+}
+
+
+.sec1{
+    top: 0px;
+    height: 436px;
+}
+
+.sec1::before{
+    content: "";
+    position: absolute;
+    background: url('sec.jpg') no-repeat center center/cover;
+    top:0px;
+    left:0px;
+    width: 100%;
+    height: 500px;
+    z-index: -1;
+    opacity:0.89;
+   
+
+}
+
+.head h2{
+
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: 131px 0px 0px 0px;
+      font-family: 'Headland One', serif;
+      color: #000000;
+      font-size: 30px;
+
+}
+
+.desc p{
+      
+    align-items: center;
+    justify-content: center;
+    padding: 36px 1px 12px 34%;
+    text-align: justify;
+    font-size: 18px;
+    font-family: 'Baloo Bhai 2', cursive;
+}
+
+.btn{
+      
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 0px 0px 0px 0%;
+
+}
+
+.btn1{
+
+    width: 158px;
+    height: 34px;
+    background-color: #ef3535;
+    border-radius: 27px;
+    border: 2px solid;
+}
+
+.btn1 a{
+
+    text-decoration: none;
+    color: white;
+    padding: 13px 10px 10px 10px;
+    font-size: 16px;
+}
+
+.btn1 a:hover{
+    
+color: black;
+}
+
+.sec2{
+    top :0px;
+    background-color: rgb(195, 195, 242);
+}
+
+
+
+.head2 h2{
+
+    align-items: center;
+    justify-content: center;
+    text-align: justify;
+    padding: 1px 0px 0px 44%;
+    font-size: 25px;
+    font-family:'Headland One', serif;
+
+}
+
+.container{
+
+    align-items: center;
+    justify-content: center;
+    padding: 20px 1px 12px 9%;
+    text-align: justify;
+    font-size: 18px;
+    font-family: 'Baloo Bhai 2', cursive;
+
+}
+
+.sec2desc2{
+      
+    padding: 16px 0px 0px 2px;
+}
+
+.approachlist{
+
+    list-style-type: lower-greek;
+    padding: 17px 1px 0px 23px;
+}
+
+.sec3{
+    top: 0px;
+    background: url('testing.jpg') no-repeat center center/cover;
+    height: 400px;
+}
+
+.head3 h2{
+    
+    align-items: center;
+    justify-content: center;
+    text-align: justify;
+    padding: 1px 0px 0px 44%;
+    font-size: 25px;
+    font-family:'Headland One', serif;
+}
+
+.offers{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    padding: 0px 65px 1px 12px;
+}
+
+.box{
+     
+    border: 2px solid #ffffff00;
+    padding: 30px;
+    width: 900px;
+    height: 100px;
+    margin: 17px 67px;
+    border-radius: 8px;
+    background: #ffffff00;
+    
+
+}
+
+.boxh{
+
+    padding: 5px 0px 0px 0px;
+    color: indianred;
+}
+
+.tests{
+
+    align-items: center;
+    justify-content: center;
+    text-align: justify;
+    padding-left: 5px;
+    font-size: 20px;
+}
+
+.sec4{
+    top: 0px;
+    height: 1000px;
+   background: url('tech4.jpg') no-repeat center center/cover; 
+
+
+}
+
+.head4 h2{
+   
+    align-items: center;
+    justify-content: center;
+    text-align: justify;
+    padding: 3px 0px 0px 44%;
+    font-size: 25px;
+    font-family:'Headland One', serif;
+
+    color: white;
+
+}
+
+.service{
+
+    display: flex;
+    margin :10px;
+}
+
+.box1{
+
+    border: 2px solid #ffffff00;
+    padding: 30px;
+    width: 900px;
+    height: 375px;
+    margin: 17px 67px;
+    border-radius: 8px;
+    background: #b6b6f1; 
+}
+
+.box2h{
+    
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 0px 0px 18px 0px;
+
+
+}
+
+.box1 p{
+
+    text-align: justify;
+    font-family: 'Baloo Bhai 2', cursive;
+
+}
+
+#blank{
+
+    background-color: #ffffff00;
+    border: none;
+}
+
+.head5 h2{
+
+    align-items: center;
+    justify-content: center;
+    text-align: justify;
+    padding: 3px 0px 0px 44%;
+    font-size: 21px;
+    font-family:'Headland One', serif;
+ 
+}
+
+.sec5{
+    background-color: #b6b6f1;
+}
+.sm{
+    padding: 14px 0px 0px 0px;
+}
+.sm h3{
+    padding-left: 10px;
+    
+}
+.sm p{
+     
+    padding-left: 10px;
+    font-family: 'Baloo Bhai 2', cursive;
+}
+.sm p a{
+    text-decoration: none;
+    color: #000000;
+}
+
+.sm p a :hover{
+    color: red;
+}
+
+.socialm{
+
+    display: flex;
+    padding-left: 10px;
+    padding-top: 1px;
+}
+
+.images{
+    padding: 9px 12px 0px 0px;
+}
+
+.images img{
+    border-radius: 40px;
+    width: 20px;
+    height:20px;
+}
+
+.btn2{
+
+       align-items: center;
+       justify-content: center;
+       text-align: center;
+       padding: 0px 0px 10px 0px;
+
+}
+.foot{
+
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 12px;
+}
